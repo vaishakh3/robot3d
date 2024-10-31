@@ -1,0 +1,15 @@
+/* App.css */
+html, body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Full height for body */
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.fullscreen-container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+}
